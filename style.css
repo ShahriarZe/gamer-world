@@ -102,6 +102,34 @@ nav a{
     width: 100%;
 }
 
+/* Online Games Part */
+
+.games-container{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.games-container h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 800;
+}
+.games-tittle{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.games-container p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+.games-list{
+    display: flex;
+    gap: 20px;
+}
+
 
 
 
@@ -135,6 +163,17 @@ nav a{
     .banner-image img{
         width: 100%;
     }
+    .games-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .games-list{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 
@@ -156,6 +195,18 @@ nav a{
         margin-top: 50px;
     }
     .banner-image img{
+        width: 100%;
+    }
+    .games-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .games-list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .games-list img{
         width: 100%;
     }
 }
