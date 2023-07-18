@@ -225,6 +225,7 @@ nav a{
         width: 100%;
         margin: auto;
         margin-top: 50px;
+        gap: 20px;
     }
     .games-container{
         display: flex;
@@ -246,7 +247,7 @@ nav a{
         width: 100%;
     }
     .small img{
-        width: 140px;
+        width: 120px;
     }
     .games-category{
         display: grid;
