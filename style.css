@@ -200,6 +200,9 @@ nav a{
     margin-top: 100px;
     gap: 20px;
 }
+.games-btn img{
+    width: 50px
+}
 
 
 
@@ -222,10 +225,17 @@ nav a{
     .main-banner{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 75%;
         margin: auto;
         margin-top: 50px;
         gap: 20px;
+       background-image: none;
+    }
+    .banner-content{
+        background-image: url("./images/Group\ 14.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 10px;
     }
     .games-container{
         display: flex;
@@ -244,10 +254,10 @@ nav a{
         gap: 20px;
     }
     .online-games-image img{
-        width: 100%;
+        width: 280px;
     }
     .small img{
-        width: 120px;
+        width: 130px;
     }
     .games-category{
         display: grid;
