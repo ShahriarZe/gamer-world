@@ -197,7 +197,7 @@ nav a{
     flex-wrap: wrap;
     width: 80%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 150px;
     gap: 20px;
 }
 .games-btn img{
@@ -206,7 +206,66 @@ nav a{
 
 
 
+/* Footer Section  */
 
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#0B0223; ;
+    margin-top: 70px;
+}
+.footer-container{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.footer-heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0px;
+    color: #FFF;
+}
+.footer-heading h3{
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-menu{
+    display: flex;
+    gap: 60px;
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+}
+.footer-icons{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #FFF;
+}
+.footer-description{
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+}
+#footer-paragraph{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+}
+.footer-tittle{
+    color: #FF42A5;
+}
 
 
 
@@ -270,10 +329,33 @@ nav a{
     .games-btn{
         width: 100%;
         margin: auto;
-        font-size: 14px;
+        font-size: 12px;
     }
     .games-category img{
         width: 40px;
+    }
+    .footer-menu{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 0px;
+        font-size: 14px;
+    }
+    .footer-icons{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 0px;
+        width: 70%;
+        margin: auto;
+        font-size: 20px;
+    }
+    .footer-description{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0px;
+        font-size: 14px;
+    }
+    #footer-paragraph{
+        font-size: 12px;
     }
 
     
@@ -332,10 +414,16 @@ nav a{
         margin: 100px auto 100px auto;
     }
     .games-btn{
-        width: 100%;
+        width: 70%;
         margin: auto;
     }
     .games-category img{
         width: 60px;
+    }
+    .footer-menu{
+        gap: 50px;
+    }
+    #footer-paragraph{
+        font-size: 14px;
     }
 }
